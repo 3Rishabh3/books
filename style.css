@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: url("images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+nav{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li:hover{
+    background-color: indianred;
+    transition: 0.8s;
+}
+nav ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px 30px;;
+    color: whitesmoke;
+}
+
+.righty{
+    float: right;
+}
+
+.lefty{
+    float: left;
+}
+
+.active{
+    background-color: indianred;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    color: indianred;
+    font-weight: bolder;
+    letter-spacing: 10;
+    font-size: 3rem;
+    background-color: yellow;
+    padding: 1rem;
+}
+.main h2 a{
+    text-decoration: none;
+    padding: 0.7rem;
+    border: 2px solid indianred;
+    color: indianred;
+}
+.bookBox img{
+    height: 300px;
+    width: 200px;
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 2rem;
+}
+
+.bookBox img:hover{
+    opacity: 1;
+    width: 210px;
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.bookBox div{
+    display: inline-block;
+}
+
+.column{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+footer p{
+}

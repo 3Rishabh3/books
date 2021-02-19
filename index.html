@@ -1,0 +1,52 @@
+<html>
+    <head>
+       <title>My Fav Books</title> 
+       <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+       
+       <header>
+        <nav>
+            <ul>
+                <li class="active lefty" ><a href="#">HOME</a></li>
+                <li class="righty"><a href="#">DEMO LINK 3</a></li>
+                <li class="righty"><a href="#">DEMO LINK 2</a></li>
+                <li class="righty"><a href="#">DEMO LINK 1</a></li>
+            </ul>
+        </nav>
+       </header>
+        
+        <div class="main" >
+           <h1>MY FAVOURITE BOOKS</h1>
+            <div class="bookBox">
+              <div class="column">
+                 <a href="#"><img src="images/badBlood.jpg" alt=""></a> 
+                 <h2 onClick='document.getElementById("iframe").src="badBlood.html";'><a href="#" >Know More...</a></h2>
+              </div>
+              <div class="column">
+                  <a href="#"><img src="images/harryPotter.png" alt=""></a>
+                  <h2 onClick='document.getElementById("iframe").src="harryPotter.html";'><a href="#">Know More...</a></h2>
+              </div>
+              <div class="column">
+                  <a href="#"><img src="images/deathNote.jpg" alt=""></a>
+                  <h2 onClick='document.getElementById("iframe").src="deathNote.html";'><a href="#" >Know More...</a></h2>
+              </div> 
+              <div class="column">
+                  <a href="#"><img src="images/aot.jpg" alt=""></a>                 
+                  <h2 onClick='document.getElementById("iframe").src="aot.html";'><a href="#">Know More...</a></h2>
+              </div>  
+              <div class="column">
+                  <a href="#"><img src="images/potc.jpg" alt=""></a>
+                  <h2 onClick='document.getElementById("iframe").src="potc.html";'><a href="#">Know More...</a></h2>
+              </div>   
+            </div>
+            <iframe id='iframe' frameborder="0" scrolling="yes" width="100%" height="500"></iframe>
+        </div>
+        
+        <footer>
+            <p>Copyright &copy; 2021 | Terms &middot; Conditions | Made By Rishabh Gupta</p>
+        </footer>
+
+    </body>
+</html>
